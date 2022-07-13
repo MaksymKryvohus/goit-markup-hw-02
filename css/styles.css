@@ -1,0 +1,43 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+}
+.list {
+  list-style: none;
+}
+.logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  color: var(--accent-color);
+}
+.logo-item {
+  color: #000000;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+/* hero */
+.hero {
+  background: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+/* section */
+.section {
+}
+.section-title {
+}
+/* цвет основнго текста  #212121 */
+/* вторичный цвет текста  #757575 */
+/* х1  #FFFFFF 
+фон героя и футер #2F303A */ /* акцент  #2196F3 */
+/*цвет фона секции "чем занимаемся" #E5E5E5  */
+/* цвет фона наша команда #F5F4FA */
+/* цвет контактов в футере  rgba(255, 255, 255, 0.6) */ ;
