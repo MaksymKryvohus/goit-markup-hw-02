@@ -85,7 +85,6 @@ body {
   text-transform: uppercase;
 }
 .features-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -111,7 +110,6 @@ body {
   text-decoration: none;
 }
 .team-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -129,7 +127,6 @@ body {
 .footer-link {
   color: var(--primary-text-color);
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -140,12 +137,12 @@ body {
 .address-link {
   color: var(--primary-white-color);
   text-decoration: none;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .portfolio-btn {
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
@@ -165,8 +162,15 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
+/* осталось лого шапке
+шрифт в кнопках, ховер и фокус для картинок в портфолио
+«С16» Кнопкам задана властивість cursor зі значенням pointer
+«С15» Вага шрифту (властивість font-weight) явно вказана тільки,
+ якщо значення в макеті відрізняється від стандартного для цього
+  елемента в браузер
+
+ */
