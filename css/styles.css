@@ -68,6 +68,7 @@ body {
 .hero-btn {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  cursor: pointer;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -108,6 +109,10 @@ body {
 }
 .team-link {
   text-decoration: none;
+}
+.team-subtitle:hover,
+.team-subtitle:focus {
+  color: var(--accent-color);
 }
 .team-text {
   font-size: 16px;
@@ -162,15 +167,23 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio-text {
+  text-decoration: none;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
 }
-/* осталось лого шапке
-шрифт в кнопках, ховер и фокус для картинок в портфолио
-«С16» Кнопкам задана властивість cursor зі значенням pointer
-«С15» Вага шрифту (властивість font-weight) явно вказана тільки,
- якщо значення в макеті відрізняється від стандартного для цього
-  елемента в браузер
-
+.portfolio-link {
+  text-decoration: none;
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.portfolio-title:hover,
+.portfolio-tetle:focus {
+  color: var(--accent-color);
+}
+/* 
+шрифт в кнопках
  */
