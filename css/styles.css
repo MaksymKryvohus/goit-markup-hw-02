@@ -29,7 +29,7 @@ body {
 .logo-item {
   color: #000000;
 }
-/* header */
+/*----------------------- header -------------------------*/
 .header-link {
   color: var(--title-text-color);
   text-decoration: none;
@@ -55,6 +55,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+/*----------------------- hero -------------------------*/
 .hero-title {
   background-color: #2f303a;
   color: var(--primary-white-color);
@@ -75,6 +76,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
+/*----------------------- features -------------------------*/
 .features-subtitle {
   color: var(--title-text-color);
   font-weight: 700;
@@ -88,6 +90,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/*----------------------- our team -------------------------*/
 .work-title,
 .team-title {
   color: var(--title-text-color);
@@ -118,6 +121,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
 }
+/*----------------------- footer -------------------------*/
 .footer {
   background-color: #2f303a;
 }
@@ -144,6 +148,7 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
+/*----------------------- portfolio -------------------------*/
 .portfolio-btn {
   font-family: inherit;
   cursor: pointer;
