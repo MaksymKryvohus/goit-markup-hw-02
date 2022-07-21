@@ -55,7 +55,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.hero {
+.hero-title {
   background-color: #2f303a;
   color: var(--primary-white-color);
   font-weight: 900;
@@ -128,7 +128,7 @@ body {
   text-decoration: none;
 }
 .footer-link {
-  color: var(--primary-text-color);
+  color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
@@ -183,6 +183,3 @@ body {
 .portfolio-tetle:focus {
   color: var(--accent-color);
 }
-/* 
-шрифт в кнопках
- */
