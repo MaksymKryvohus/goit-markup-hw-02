@@ -76,8 +76,12 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
 }
-/*----------------------- features -------------------------*/
-.features-subtitle {
+.hero-btn:hover,
+.hero-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+-------------- features -------------------------*/ .features-subtitle {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
@@ -91,6 +95,9 @@ body {
   letter-spacing: 0.03em;
 }
 /*----------------------- our team -------------------------*/
+.team {
+  background: #f5f4fa;
+}
 .work-title,
 .team-title {
   color: var(--title-text-color);
@@ -185,6 +192,20 @@ body {
   letter-spacing: 0.06em;
 }
 .portfolio-title:hover,
-.portfolio-tetle:focus {
+.portfolio-tetle:focus,
+.footer-link:hover,
+.footer-link:focus {
   color: var(--accent-color);
+}
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
